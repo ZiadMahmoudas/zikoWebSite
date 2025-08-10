@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 .project-img {
@@ -8,7 +8,7 @@ html{
   height: 180px;
   object-fit: cover;
   border-radius: 12px 12px 0 0;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
   margin-bottom: 8px;
   background: #f3f4f6;
 }
@@ -21,9 +21,11 @@ html{
 .project-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
   padding: 0 0 18px 0;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +45,7 @@ html{
   margin: 0 12px;
 }
 .project-card:hover {
-  box-shadow: 0 8px 32px rgba(99,102,241,0.22);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.22);
   transform: scale(1.05) translateY(-4px);
 }
 
@@ -76,9 +78,11 @@ html{
   gap: 8px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
   padding: 18px 8px 10px 8px;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
   min-width: 90px;
 }
 .tech-icon img {
@@ -95,7 +99,7 @@ html{
   text-align: center;
 }
 .tech-icon:hover {
-  box-shadow: 0 6px 24px rgba(99,102,241,0.18);
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.18);
   transform: scale(1.08) translateY(-4px);
 }
 
@@ -105,10 +109,12 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
 }
 .project-link:hover {
-  box-shadow: 0 6px 24px rgba(99,102,241,0.18);
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.18);
   transform: scale(1.05) translateY(-2px);
 }
 .project-icon {
@@ -133,7 +139,7 @@ html{
 body {
   background: linear-gradient(135deg, #f9fafb 0%, #e0e7ff 100%);
   color: #1a202c;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
 }
 
@@ -143,7 +149,7 @@ header {
   width: 100%;
   z-index: 100;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 nav {
@@ -163,7 +169,6 @@ nav {
   letter-spacing: 1px;
 }
 
-
 /* Bootstrap Navbar Customization */
 .navbar-brand.logo {
   font-size: 1.7rem;
@@ -179,13 +184,17 @@ nav {
   font-size: 1.08rem;
   color: #1a202c;
   border-radius: 8px;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s;
   padding: 8px 18px;
 }
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
   background: linear-gradient(90deg, #6366f1 0%, #a78bfa 100%);
   color: #fff !important;
-  box-shadow: 0 4px 16px rgba(99,102,241,0.12);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.12);
 }
 
 .nav-icon {
@@ -239,21 +248,25 @@ main {
   font-size: 1.1rem;
   font-weight: 500;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.12);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.12);
   transition: background 0.2s;
 }
 .cta-btn:hover {
   background: #4338ca;
 }
 
-.about-section, .projects-section, .contact-section {
+.about-section,
+.projects-section,
+.contact-section {
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
   padding: 92px 24px;
   margin-bottom: 32px;
 }
-.about-section h2, .projects-section h2, .contact-section h2 {
+.about-section h2,
+.projects-section h2,
+.contact-section h2 {
   color: #6366f1;
   font-size: 2rem;
   margin-bottom: 16px;
@@ -267,11 +280,11 @@ main {
   background: #f3f4f6;
   border-radius: 12px;
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
   transition: box-shadow 0.2s;
 }
 .project-card:hover {
-  box-shadow: 0 4px 16px rgba(99,102,241,0.18);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.18);
 }
 .project-card h3 {
   color: #6366f1;
@@ -285,7 +298,8 @@ main {
   max-width: 400px;
   margin: 0 auto;
 }
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 12px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
@@ -307,17 +321,93 @@ main {
 .contact-form button:hover {
   background: #4338ca;
 }
-  .navbar-nav{
-    background-color: rgba(230, 108, 38, 0.938);
-    border-radius: 25px;
-    padding: 25px;
+.navbar-nav {
+  background-color: rgba(230, 108, 38, 0.938);
+  border-radius: 25px;
+  padding: 25px;
 }
 @media (min-width: 700px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
-.navbar-nav{
+  .navbar-nav {
     background-color: transparent;
     padding: 0;
+  }
 }
+
+#contactForm {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+#contactForm button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+  letter-spacing: 1px;
+}
+
+#contactForm button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+#contactForm button:active {
+  transform: translateY(0);
 }

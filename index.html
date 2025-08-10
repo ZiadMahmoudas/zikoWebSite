@@ -102,14 +102,21 @@
         </section>
         <section id="contact" class="contact-section">
           <h2>Contact</h2>
-          <form class="contact-form" action="https://formsubmit.co/f95397356bf2d4d56ff678286cef60ce" method="POST" enctype="text/plain">
-              <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://ziadmahmoudas.github.io/">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-          </form>
+<form id="contactForm" style="max-width:400px; margin:auto;">
+  <label for="name">Name: </label><br>
+  <input type="text" id="name" name="name" maxlength="30" required><br><br>
+
+  <label for="email">Email: </label><br>
+  <input type="email" id="email" name="email" maxlength="50" required><br><br>
+
+  <label for="message">Message: </label><br>
+  <textarea id="message" name="message" maxlength="350" required rows="5"></textarea><br><br>
+
+  <button type="submit">send</button>
+</form>
+
+<div id="result" class="text-success" style="margin-top:10px; font-weight:bold;"></div>
+<div id="result2" class="text-danger" style="margin-top:10px; font-weight:bold;"></div>
         </section>
       </main>
     </div>
